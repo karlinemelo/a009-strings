@@ -24,7 +24,9 @@ console.log(
     "verde" // vai imprimir um valor true ou false.
   )}\nA nova frase possui a palavra \"laranja\": ${troca.includes("laranja")}`
 );
-//Extra (Solucao nao foi verificada em aula.)
-const extra = `BOAS VINDAS, MAS NAO DEIXE O GATO SAIR.`;
+//Extra
+const extra =
+  "Jorge tem uma casa verde e com portão azul, com os dizeres:" +
+  "BOAS VINDAS, mas não deixe o gato sair".toUpperCase();
 const juncao = `${troca} ${extra}`;
 console.log(juncao);
